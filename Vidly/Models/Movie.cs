@@ -13,7 +13,7 @@ namespace Vidly.Models
         public DateTime DateAdded { get; set; }
         public int NumberInStock { get; set; }
         public Genres Genres { get; set; }
-        public byte GenreId { get; set; }
+        public byte GenresId { get; set; }
     }
 
 }
