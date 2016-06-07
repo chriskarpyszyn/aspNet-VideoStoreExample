@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidly", "Vidly\Vidly.csproj", "{D7208807-4B9D-402C-B3C1-E2BE6DC890E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoStoreExample", "Vidly\VideoStoreExample.csproj", "{D7208807-4B9D-402C-B3C1-E2BE6DC890E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
