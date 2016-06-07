@@ -235,9 +235,22 @@
     <Compile Include="Migrations\201606071330497_AddBirthdateToCustomerModel.Designer.cs">
       <DependentUpon>201606071330497_AddBirthdateToCustomerModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606071413545_CreateMovieTable.cs" />
+    <Compile Include="Migrations\201606071413545_CreateMovieTable.Designer.cs">
+      <DependentUpon>201606071413545_CreateMovieTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606071418228_CreateGenreTable.cs" />
+    <Compile Include="Migrations\201606071418228_CreateGenreTable.Designer.cs">
+      <DependentUpon>201606071418228_CreateGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606071419383_PopulateGenres.cs" />
+    <Compile Include="Migrations\201606071419383_PopulateGenres.Designer.cs">
+      <DependentUpon>201606071419383_PopulateGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genres.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -348,6 +361,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606071330497_AddBirthdateToCustomerModel.resx">
       <DependentUpon>201606071330497_AddBirthdateToCustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606071413545_CreateMovieTable.resx">
+      <DependentUpon>201606071413545_CreateMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606071418228_CreateGenreTable.resx">
+      <DependentUpon>201606071418228_CreateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606071419383_PopulateGenres.resx">
+      <DependentUpon>201606071419383_PopulateGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
