@@ -1,4 +1,4 @@
-namespace Vidly.Migrations
+namespace VideoStoreExample.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
