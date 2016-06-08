@@ -41,6 +41,7 @@ namespace VideoStoreExample.Controllers.api
                  return BadRequest();
  
              var movie = Mapper.Map<MovieDto, Movie>(movieDto);
+             movie.DateAdded = DateTime.Now;
              _context.Movies.Add(movie);
              _context.SaveChanges();
  
