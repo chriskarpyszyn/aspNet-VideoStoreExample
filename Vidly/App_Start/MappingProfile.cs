@@ -12,8 +12,14 @@ namespace VideoStoreExample.App_Start
     {
         public MappingProfile()
         {
+            //domain to dto map
             Mapper.CreateMap<Customer, CustomerDto>();
-            Mapper.CreateMap<CustomerDto, Customer>();
+            Mapper.CreateMap<Movie, MovieDto>();
+
+            //dto to domain
+            Mapper.CreateMap<CustomerDto, Customer>().ForMember(c => c.Id, opt => opt.Ignore());
+            Mapper.CreateMap<MovieDto, Movie>().ForMember(c => c.Id, opt => opt.Ignore());
+
         }
     }
 }
