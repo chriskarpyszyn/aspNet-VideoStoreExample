@@ -255,6 +255,10 @@
     <Compile Include="Migrations\201606071911323_RemoveNullableFromDateAdded.Designer.cs">
       <DependentUpon>201606071911323_RemoveNullableFromDateAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606080003340_MakeReleaseDateRequired.cs" />
+    <Compile Include="Migrations\201606080003340_MakeReleaseDateRequired.Designer.cs">
+      <DependentUpon>201606080003340_MakeReleaseDateRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -390,6 +394,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606071911323_RemoveNullableFromDateAdded.resx">
       <DependentUpon>201606071911323_RemoveNullableFromDateAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606080003340_MakeReleaseDateRequired.resx">
+      <DependentUpon>201606080003340_MakeReleaseDateRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

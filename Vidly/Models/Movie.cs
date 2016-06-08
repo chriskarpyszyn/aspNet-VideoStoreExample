@@ -15,12 +15,13 @@ namespace VideoStoreExample.Models
         public string Name { get; set; }
 
         [Display(Name = "Release Date")]
-        public DateTime? ReleaseDate { get; set; }
+        public DateTime ReleaseDate { get; set; }
 
         [Display(Name = "Date Added")]
         public DateTime DateAdded { get; set; }
 
         [Display(Name = "Number in Stock")]
+        [Range(1,20)]
         public int NumberInStock { get; set; }
 
         public Genres Genres { get; set; }
