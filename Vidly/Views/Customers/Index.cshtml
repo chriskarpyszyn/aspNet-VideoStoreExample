@@ -1,10 +1,14 @@
-﻿@model IEnumerable<VideoStoreExample.Models.Customer>
+﻿@using System.Linq
+@model System.Collections.Generic.IEnumerable<VideoStoreExample.Models.Customer>
 @{
     ViewBag.Title = "Customers";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Customers</h2>
+<p>
+    @Html.ActionLink("New Customer", "New", "Customers", null, new { @class = "btn btn-primary" })
+</p>
 
 
 
